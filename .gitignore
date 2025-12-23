@@ -1,0 +1,16 @@
+# Rust
+target/
+Cargo.lock
+*.exe
+*.pdb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config
+config.toml

