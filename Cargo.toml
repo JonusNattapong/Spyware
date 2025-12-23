@@ -1,7 +1,8 @@
 [package]
-name = "spy-cassandra"
+name = "spyware"
 version = "1.0.0"
 edition = "2021"
+authors = ["Cassandra Team"]
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
